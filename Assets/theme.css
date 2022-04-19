@@ -146,7 +146,7 @@ textarea.form-control {
 
 #back-to-top {
   z-index: 10;
-  background: #364b59;
+  background: #0778c4;
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -204,6 +204,17 @@ textarea.form-control {
   margin-bottom: 30px;
   padding-top: 75px;
   padding-bottom: 45px;
+  text-align: right;
+}
+.section.has-pattern .section-inner .container .content .content-inner2 {
+  min-height: 420px;
+  max-width: 500px;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 75px;
+  padding-bottom: 45px;
+  text-align: left;
 }
 .section.has-pattern .section-inner .container .content .pe-icon {
   margin-bottom: 15px;
@@ -213,7 +224,9 @@ textarea.form-control {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 28px;
-  font-weight: 300;
+  font-weight: 600;
+  /* text-align: justify; */
+
 }
 .section.has-pattern .section-inner .container .content .testimonial {
   max-width: 500px;
@@ -625,11 +638,12 @@ textarea.form-control {
   position: relative;
   padding-top: 60px;
   text-align: right;
+  
 }
 .promo .intro-area .title {
   margin-top: 0;
   margin-bottom: 15px;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 36px;
 }
 .promo .intro-area .intro {
@@ -665,8 +679,8 @@ textarea.form-control {
   margin-top: -16px;
 }
 .promo .intro-area .video-container .video-play-trigger .icon-holder {
-  color: rgba(0, 0, 0, 0.8);
-  background: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.8);
   width: 32px;
   height: 32px;
   display: inline-block;
@@ -687,7 +701,7 @@ textarea.form-control {
 }
 .promo .intro-area .video-container .video-play-trigger .icon-holder:hover {
   background: rgba(0, 0, 0, 0.8);
-  color: #fff;
+  color: rgb(20, 69, 230);
 }
 .promo .intro-area .video-container .video-play-trigger .icon-holder:focus {
   outline: none;
