@@ -297,7 +297,7 @@ textarea.form-control {
   margin: 0 5px;
   width: 10px;
   height: 10px;
-  background: #fff;
+  background: rgb(5, 127, 226);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1129,11 +1129,17 @@ textarea.form-control {
   .promo .download-area {
     text-align: center;
     margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 
   .promo .download-area .download-buttons {
     display: inline-block;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
 
   .promo .arrow-holder {
