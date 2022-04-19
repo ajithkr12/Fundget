@@ -802,7 +802,12 @@ textarea.form-control {
   margin-bottom: 15px;
   display: block;
 }
-
+.footer .copyright img{
+width:100px ;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
 
 
 /* 
